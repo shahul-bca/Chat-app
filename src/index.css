@@ -7,3 +7,6 @@
 ::-webkit-scrollbar{
     display: none;
 }
+img .dot{
+  font-size: 15px !important;
+}

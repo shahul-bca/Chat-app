@@ -1,5 +1,5 @@
 .left-side{
-    background-color: #001030;
+    border: 1px solid silver;
     color:white ;
     height: 75vh;
 }
@@ -20,7 +20,9 @@
     cursor: pointer;
 }
 .ls-search{
-    background-color: #002670;
+    background-color:transparent;
+    border: 1px solid silver;
+    border-radius: 25px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -35,7 +37,7 @@
     background: transparent;
     border: none;
     outline: none;
-    color: white;
+    color:#000;
     font-size: 11px;
 }
 .ls-search input::placeholder{
@@ -51,6 +53,7 @@
     width: 35px;
     aspect-ratio: 1/1;
     border-radius: 50%;
+    border: 2px solid;
 }
 .friends{
     display: flex;
@@ -70,9 +73,10 @@
 }
 
 .friends:hover{
-    background-color: #5078c7;
+    background-color:rgb(21, 128, 235);
 }
 .friends div:hover span{
     color: white;
     font-size: 12px;
 }
+

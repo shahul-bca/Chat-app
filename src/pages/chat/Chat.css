@@ -8,7 +8,8 @@
     width: 95%;
     height: 75%;
     max-width: 1000px;
-    background-color: aliceblue;
+  
+    background-color: transparent;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr ;
 }
